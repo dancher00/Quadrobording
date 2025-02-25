@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="a1_controller" type="dog_lie_down.py" name="dog_lie_down" output="screen"/>
+</launch>
