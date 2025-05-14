@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from unitree_msgs/srv/SetControlMode.srv
+// generated code does not contain a copyright notice
+
+
+module unitree_msgs {
+  module srv {
+    struct SetControlMode_Request {
+      string control_mode;
+    };
+    struct SetControlMode_Response {
+      boolean accept;
+
+      string current_control_mode;
+    };
+  };
+};

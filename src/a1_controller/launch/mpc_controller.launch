@@ -1,7 +1,0 @@
-<launch>
-
-    <!-- Robot controller -->
-    <node pkg="a1_controller" type="mpc_controller.py"
-        name="MPC_CONTROLLER" output="screen"/>
-
-</launch>

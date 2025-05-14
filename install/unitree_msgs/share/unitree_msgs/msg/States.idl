@@ -1,0 +1,48 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from unitree_msgs/msg/States.msg
+// generated code does not contain a copyright notice
+
+
+module unitree_msgs {
+  module msg {
+    typedef double double__12[12];
+    typedef double double__4[4];
+    typedef double double__3[3];
+    struct States {
+      @verbatim (language="comment", text=
+        "Time")
+      double t;
+
+      @verbatim (language="comment", text=
+        "float64[12] qJ                     # Joint position measurements" "\n"
+        "float64[12] vJ                     # Joint velocity measurements" "\n"
+        "float64[12] tauJ                   # Joint torque measurements" "\n"
+        " Joint position measurements")
+      double__12 qj;
+
+      @verbatim (language="comment", text=
+        "Joint velocity measurements")
+      double__12 vj;
+
+      @verbatim (language="comment", text=
+        "Joint torque measurements")
+      double__12 tauj;
+
+      @verbatim (language="comment", text=
+        "Imu orientation estimation expressed as a quaternion (x, y, z, w)")
+      double__4 imu_orientation;
+
+      @verbatim (language="comment", text=
+        "Imu angular velocity")
+      double__3 imu_angular_velocity;
+
+      @verbatim (language="comment", text=
+        "Imu linear acceleration")
+      double__3 imu_linear_acceleration;
+
+      @verbatim (language="comment", text=
+        "Force sensor measurements")
+      double__4 foot_force_sensor;
+    };
+  };
+};

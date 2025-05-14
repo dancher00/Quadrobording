@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from unitree_msgs/msg/Commands.msg
+// generated code does not contain a copyright notice
+
+
+module unitree_msgs {
+  module msg {
+    typedef double double__12[12];
+    struct Commands {
+      @verbatim (language="comment", text=
+        "Time")
+      double t;
+
+      @verbatim (language="comment", text=
+        "float64[12] qJ                     # Joint position commands" "\n"
+        "float64[12] vJ                     # Joint velocity commands" "\n"
+        "float64[12] tauJ                   # Joint torque commands" "\n"
+        " Joint position commands")
+      double__12 qj;
+
+      @verbatim (language="comment", text=
+        "Joint velocity commands")
+      double__12 vj;
+
+      @verbatim (language="comment", text=
+        "Joint torque commands")
+      double__12 tauj;
+
+      @verbatim (language="comment", text=
+        "float64[12] Kp                     # Joint position gain commands" "\n"
+        "float64[12] Kd                     # Joint velocity gain commands" "\n"
+        " Joint position gain commands")
+      double__12 kp;
+
+      @verbatim (language="comment", text=
+        "Joint velocity gain commands")
+      double__12 kd;
+    };
+  };
+};

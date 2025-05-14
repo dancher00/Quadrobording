@@ -1,0 +1,3 @@
+
+bool accept
+string current_control_mode
